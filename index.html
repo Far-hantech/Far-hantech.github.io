@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Mohammed Farhan — AI Engineer & Founder</title>
+  <meta name="description" content="Mohammed Farhan — AI engineer, forward-deployed engineer and founder of Studygy.io. I ship production LLM and RAG systems end to end." />
+  <meta name="theme-color" content="#F5F0E6" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mohammed Farhan — AI Engineer & Founder" />
+  <meta property="og:description" content="I ship production LLM & RAG systems end to end — from fine-tuned model to the button your users click." />
+  <meta property="og:image" content="/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;700&family=Geist:wght@300..700&display=swap" rel="stylesheet" />
+  <script>
+    try {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+      else if (matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark';
+    } catch (e) {}
+    document.documentElement.classList.add('js');
+  </script>
+  <script type="module" crossorigin src="/assets/index-CYT3G-DA.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DlNQFz_h.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__panels"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="loader__base">
+      <div class="loader__inner">
+        <div class="loader__count"><span data-count>0</span><sup>%</sup></div>
+        <div class="loader__status mono"><span class="loader__caret">›</span> <span data-status>initializing weights…</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cursor is-hidden" aria-hidden="true">
+    <div class="cursor__ring"><span class="cursor__label"></span></div>
+    <div class="cursor__dot"></div>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+  <canvas class="confetti" aria-hidden="true"></canvas>
+
+  <!-- Nav -->
+  <header class="nav">
+    <div class="nav__bar">
+      <div class="nav__inner">
+        <a href="#top" class="nav__logo" aria-label="Mohammed Farhan — home">
+          <span class="nav__mark" aria-hidden="true">F</span>
+          <span class="nav__name">Farhan</span>
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+          <span class="nav__indicator" aria-hidden="true"></span>
+          <a href="#work" data-nav>Work</a>
+          <a href="#ask" data-nav>Ask&nbsp;me</a>
+          <a href="#journey" data-nav>Journey</a>
+          <a href="#stack" data-nav>Stack</a>
+          <a href="#creds" data-nav>Receipts</a>
+        </nav>
+        <div class="nav__right">
+          <span class="nav__clock mono" title="My local time in Chantilly, VA"><span data-clock>--:--</span>&nbsp;ET</span>
+          <button class="theme-btn" type="button" aria-label="Toggle dark mode">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+          </button>
+          <a href="#contact" class="btn btn--ink btn--sm">Let's talk</a>
+          <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#work" style="--c:var(--blue)">Work</a>
+      <a href="#ask" style="--c:var(--pink)">Ask me</a>
+      <a href="#journey" style="--c:var(--yellow)">Journey</a>
+      <a href="#stack" style="--c:var(--green)">Stack</a>
+      <a href="#creds" style="--c:var(--violet)">Receipts</a>
+      <a href="#contact" style="--c:var(--orange)">Contact</a>
+    </nav>
+    <p class="menu__foot mono">farhanay916@gmail.com</p>
+  </div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" data-section="blue">
+      <div class="hero__blobs" aria-hidden="true"><i></i><i></i><i></i></div>
+      <canvas class="hero__field" aria-hidden="true"></canvas>
+
+      <div class="hero__inner container">
+        <div class="hero__top">
+          <p class="chip chip--live"><span class="pulse"></span> Available for work &amp; collaboration</p>
+          <p class="mono hero__coords">38.89°N · 77.43°W — Chantilly, VA</p>
+        </div>
+
+        <h1 class="hero__title" aria-label="Mohammed Farhan">
+          <span class="line" aria-hidden="true"><span class="word" data-letters>Mohammed</span></span>
+          <span class="line line--2" aria-hidden="true">
+            <span class="word" data-letters>Farhan</span>
+            <span class="bot" aria-label="Farhan's coder cat">
+              <span class="bot__body">
+                <span class="bot__squash">
+                  <svg class="cat" viewBox="0 0 140 140" aria-hidden="true">
+                    <defs>
+                      <radialGradient id="catFur" cx="0.38" cy="0.25" r="0.9">
+                        <stop offset="0" stop-color="#ffbe78"/>
+                        <stop offset="0.55" stop-color="#ffa04a"/>
+                        <stop offset="1" stop-color="#f0842c"/>
+                      </radialGradient>
+                      <linearGradient id="catWhite" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#ffffff"/>
+                        <stop offset="1" stop-color="#fbf3ec"/>
+                      </linearGradient>
+                      <linearGradient id="catEar" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#ff9cc8"/>
+                        <stop offset="1" stop-color="#ffd3e6"/>
+                      </linearGradient>
+                      <linearGradient id="catIris" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#1b1838"/>
+                        <stop offset="0.55" stop-color="#3a3fb8"/>
+                        <stop offset="1" stop-color="#8fa2ff"/>
+                      </linearGradient>
+                      <linearGradient id="catHoodie" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#34304a"/>
+                        <stop offset="1" stop-color="#1b1922"/>
+                      </linearGradient>
+                      <linearGradient id="catLid" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="#3a3549"/>
+                        <stop offset="1" stop-color="#141218"/>
+                      </linearGradient>
+                      <radialGradient id="catScreen" cx="0.5" cy="0.5" r="0.5">
+                        <stop offset="0" stop-color="#8fd8ff" stop-opacity="0.75"/>
+                        <stop offset="1" stop-color="#8fa2ff" stop-opacity="0"/>
+                      </radialGradient>
+                      <radialGradient id="catAura" cx="0.5" cy="0.5" r="0.5">
+                        <stop offset="0" stop-color="#8fa2ff" stop-opacity="0.4"/>
+                        <stop offset="0.6" stop-color="#ff9cc8" stop-opacity="0.14"/>
+                        <stop offset="1" stop-color="#ff9cc8" stop-opacity="0"/>
+                      </radialGradient>
+                      <linearGradient id="catCollar" x1="0" x2="1">
+                        <stop offset="0" stop-color="#3355ff"/>
+                        <stop offset="0.35" stop-color="#8a5cf6"/>
+                        <stop offset="0.7" stop-color="#ff4d9d"/>
+                        <stop offset="1" stop-color="#ffc93c"/>
+                      </linearGradient>
+                      <clipPath id="catLidL"><path d="M30 53.3 Q43 49.4 56 53.3 L56 72 L30 72 Z"/></clipPath>
+                      <clipPath id="catLidR"><path d="M64 53.3 Q77 49.4 90 53.3 L90 72 L64 72 Z"/></clipPath>
+                      <filter id="catGlow" x="-80%" y="-80%" width="260%" height="260%">
+                        <feDropShadow dx="0" dy="0" stdDeviation="1.6" flood-color="#8fd8ff" flood-opacity="0.95"/>
+                      </filter>
+                    </defs>
+                    <ellipse class="cat__aura" cx="70" cy="80" rx="68" ry="62" fill="url(#catAura)"/>
+
+                    <!-- tail, peeking out behind the laptop -->
+                    <g class="cat__tail">
+                      <path d="M108 124 C 127 123, 134 106, 127 94 C 123 87, 116 88, 116 94" fill="none" stroke="#e48a3c" stroke-width="11" stroke-linecap="round"/>
+                      <path d="M108 124 C 127 123, 134 106, 127 94 C 123 87, 116 88, 116 94" fill="none" stroke="#ffa04a" stroke-width="8" stroke-linecap="round"/>
+                      <path d="M120 116.5 C 124 113, 127 109, 128.4 104.5" fill="none" stroke="#e8802a" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>
+                      <path d="M127.6 98 C 125.5 89, 117.5 87.5, 116 94" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+                    </g>
+
+                    <!-- hoodie shoulders -->
+                    <g class="cat__torso">
+                      <path d="M30 106 C 31 89, 47 82, 70 82 C 93 82, 109 89, 110 106 Z" fill="url(#catHoodie)"/>
+                      <path d="M50 84.5 Q70 93 90 84.5" fill="none" stroke="#4a4560" stroke-width="3" stroke-linecap="round"/>
+                      <path d="M63 89 L62 100 M77 89 L78 100" stroke="url(#catCollar)" stroke-width="1.7" stroke-linecap="round"/>
+                      <circle cx="62" cy="100.5" r="1.6" fill="#ff4d9d"/>
+                      <circle cx="78" cy="100.5" r="1.6" fill="#ffc93c"/>
+                    </g>
+
+                    <!-- head -->
+                    <g class="cat__head">
+                      <g transform="translate(10 -2)">
+                        <g class="cat__ear cat__ear--l">
+                          <path d="M25 44 C 23 28, 25 13, 31 8 C 37 10, 48 19, 55 27 Z" fill="url(#catFur)" stroke="#e48a3c" stroke-width="1.6" stroke-linejoin="round"/>
+                          <path d="M30 37 C 29 27, 31 18, 34 15 C 38 17, 45 22, 49 27 Z" fill="url(#catEar)"/>
+                        </g>
+                        <g class="cat__ear cat__ear--r">
+                          <path d="M95 44 C 97 28, 95 13, 89 8 C 83 10, 72 19, 65 27 Z" fill="url(#catFur)" stroke="#e48a3c" stroke-width="1.6" stroke-linejoin="round"/>
+                          <path d="M90 37 C 91 27, 89 18, 86 15 C 82 17, 75 22, 71 27 Z" fill="url(#catEar)"/>
+                        </g>
+                        <path d="M20 56 C 18 34, 36 21, 60 21 C 84 21, 102 34, 100 56 C 100 61, 104 65, 99 69 C 95 80, 79 87, 60 87 C 41 87, 25 80, 21 69 C 16 65, 20 61, 20 56 Z" fill="url(#catFur)" stroke="#e48a3c" stroke-width="1.6" stroke-linejoin="round"/>
+                        <path d="M21.6 66 C 28 59.5, 41 60.5, 50 63.5 C 53.5 64.6, 55.5 60, 56 52 C 56.6 45, 58.2 40.5, 60 38.5 C 61.8 40.5, 63.4 45, 64 52 C 64.5 60, 66.5 64.6, 70 63.5 C 79 60.5, 92 59.5, 98.4 66 C 98.9 67.5, 98.6 68.6, 98 69.6 C 94 80, 78.6 86.2, 60 86.2 C 41.4 86.2, 26 80, 22 69.6 C 21.4 68.6, 21.1 67.5, 21.6 66 Z" fill="url(#catWhite)"/>
+                        <path d="M53.5 24.5 Q55.8 29.5 54.8 34 M60 22.5 V31.5 M66.5 24.5 Q64.2 29.5 65.2 34" fill="none" stroke="#e0701a" stroke-width="2.3" stroke-linecap="round" opacity="0.75"/>
+                        <path d="M23.5 50 Q28 51 30.5 54 M96.5 50 Q92 51 89.5 54" fill="none" stroke="#e0701a" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                        <!-- screen light on the face -->
+                        <ellipse cx="60" cy="82" rx="34" ry="13" fill="url(#catScreen)" opacity="0.45"/>
+
+                        <ellipse class="cat__blush" cx="33" cy="69" rx="6.5" ry="3.4" fill="#ff8fbf"/>
+                        <ellipse class="cat__blush" cx="87" cy="69" rx="6.5" ry="3.4" fill="#ff8fbf"/>
+
+                        <g class="cat__eyes">
+                          <g class="cat__eye">
+                            <g class="cat__open">
+                              <ellipse cx="43" cy="58" rx="7.6" ry="8.6" fill="url(#catIris)" clip-path="url(#catLidL)"/>
+                              <path d="M34.8 53.3 Q43 49.4 51.2 53.3" fill="none" stroke="#2a2446" stroke-width="2" stroke-linecap="round"/>
+                              <rect x="38.6" y="56" width="5" height="3.2" rx="0.9" fill="#d6ecff"/>
+                              <circle cx="46.4" cy="62" r="1.1" fill="#fff" opacity="0.9"/>
+                            </g>
+                            <path class="cat__happy" d="M36 59 Q43 50 50 59" fill="none" stroke="#2a2446" stroke-width="2.6" stroke-linecap="round"/>
+                          </g>
+                          <g class="cat__eye">
+                            <g class="cat__open">
+                              <ellipse cx="77" cy="58" rx="7.6" ry="8.6" fill="url(#catIris)" clip-path="url(#catLidR)"/>
+                              <path d="M68.8 53.3 Q77 49.4 85.2 53.3" fill="none" stroke="#2a2446" stroke-width="2" stroke-linecap="round"/>
+                              <rect x="72.6" y="56" width="5" height="3.2" rx="0.9" fill="#d6ecff"/>
+                              <circle cx="80.4" cy="62" r="1.1" fill="#fff" opacity="0.9"/>
+                            </g>
+                            <path class="cat__happy" d="M70 59 Q77 50 84 59" fill="none" stroke="#2a2446" stroke-width="2.6" stroke-linecap="round"/>
+                          </g>
+                        </g>
+                        <path d="M58 67 L62 67 L60 69.3 Z" fill="#ff8fbf" stroke="#ff8fbf" stroke-width="1.4" stroke-linejoin="round"/>
+                        <path d="M55.5 71 Q57.75 74 60 71 Q62.25 74 64.5 71" fill="none" stroke="#9a8fb8" stroke-width="1.4" stroke-linecap="round"/>
+
+                        <!-- headphones -->
+                        <path d="M19 58 C 17 14, 103 14, 101 58" fill="none" stroke="#1b1922" stroke-width="5.5" stroke-linecap="round"/>
+                        <path d="M24 40 C 34 24, 86 24, 96 40" fill="none" stroke="url(#catCollar)" stroke-width="1.6" stroke-linecap="round" opacity="0.9"/>
+                        <rect x="10" y="48" width="14" height="23" rx="6.5" fill="#1b1922"/>
+                        <rect x="96" y="48" width="14" height="23" rx="6.5" fill="#1b1922"/>
+                        <rect x="11.6" y="53" width="3" height="13" rx="1.5" fill="url(#catCollar)"/>
+                        <rect x="105.4" y="53" width="3" height="13" rx="1.5" fill="url(#catCollar)"/>
+                        <circle class="cat__led" cx="17.5" cy="66" r="1.3" fill="#1fc979"/>
+                      </g>
+                    </g>
+
+                    <!-- screen light spilling over the lid -->
+                    <ellipse cx="70" cy="98" rx="36" ry="7" fill="url(#catScreen)" opacity="0.8"/>
+
+                    <!-- laptop (we see the back of the lid) -->
+                    <rect x="27" y="98" width="86" height="34" rx="5" fill="url(#catLid)"/>
+                    <path d="M32 98.8 H108" stroke="#5a5470" stroke-width="1"/>
+                    <g class="cat__logo" filter="url(#catGlow)" fill="#f4f7ff">
+                      <path d="M65.2 114 L65.6 107.8 L69.2 111.2 Z M74.8 114 L74.4 107.8 L70.8 111.2 Z"/>
+                      <circle cx="70" cy="116" r="5.4"/>
+                    </g>
+                    <rect x="21" y="131" width="98" height="4.6" rx="2.3" fill="#4a4560"/>
+
+                    <!-- paws on the keyboard -->
+                    <ellipse class="cat__paw cat__paw--l" cx="55" cy="99" rx="7.2" ry="4.6" fill="#fff" stroke="#e6d6c8" stroke-width="1.4"/>
+                    <ellipse class="cat__paw cat__paw--r" cx="85" cy="99" rx="7.2" ry="4.6" fill="#fff" stroke="#e6d6c8" stroke-width="1.4"/>
+                    <path class="cat__paw cat__paw--l" d="M52.5 100.2 v1.8 M57.5 100.2 v1.8" stroke="#e6c7b0" stroke-width="1.1" stroke-linecap="round"/>
+                    <path class="cat__paw cat__paw--r" d="M82.5 100.2 v1.8 M87.5 100.2 v1.8" stroke="#e6c7b0" stroke-width="1.1" stroke-linecap="round"/>
+
+                    <!-- code floating up -->
+                    <g class="cat__code" font-family="JetBrains Mono, ui-monospace, monospace" font-weight="700" font-size="8.5">
+                      <text class="cat__tok" x="2" y="100" fill="#3355ff">&lt;/&gt;</text>
+                      <text class="cat__tok cat__tok--2" x="122" y="84" fill="#ff4d9d">{ }</text>
+                      <text class="cat__tok cat__tok--3" x="6" y="88" fill="#8a5cf6">=&gt;</text>
+                      <text class="cat__tok cat__tok--4" x="130" y="80" fill="#ff6a2b">AI</text>
+                    </g>
+                  </svg>
+                </span>
+              </span>
+              <span class="bot__shadow"></span>
+              <span class="bot__bubble"><span class="bot__msg">Hi! I'm Farhan's AI ✦</span></span>
+            </span>
+          </span>
+        </h1>
+
+        <div class="hero__bottom">
+          <p class="hero__lede" data-hero-fade>
+            AI engineer &amp; founder. I ship <mark class="hl hl--yellow">LLM &amp; RAG systems</mark> end&nbsp;to&nbsp;end — from the fine-tuned model to the button your users click.
+          </p>
+          <div class="hero__ctas" data-hero-fade>
+            <a class="btn btn--ink magnetic" href="#work">See the work <span class="arr">→</span></a>
+            <a class="btn btn--ghost magnetic" href="#ask">Ask my résumé <span class="arr">✦</span></a>
+          </div>
+          <p class="hero__hint mono" data-hero-fade><span class="kbd">click</span> anywhere to make waves · <span class="kbd">drag</span> the stickers</p>
+        </div>
+      </div>
+
+      <div class="stickers" aria-hidden="true">
+        <div class="sticker sticker--award" style="--r:-7deg" data-cursor="drag">🏆 AI Icon Award ’26</div>
+        <div class="sticker sticker--users" style="--r:6deg" data-cursor="drag"><b>1,000+</b> users</div>
+        <div class="sticker sticker--rag" style="--r:-4deg" data-cursor="drag">RAG nerd</div>
+        <div class="sticker sticker--night" style="--r:9deg" data-cursor="drag">ships at 2am ☕</div>
+        <div class="sticker sticker--round" style="--r:-12deg" data-cursor="drag"><svg viewBox="0 0 100 100"><defs><path id="circ" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0"/></defs><text><textPath href="#circ">FOUNDER · STUDYGY.IO · FOUNDER · STUDYGY.IO ·</textPath></text></svg><span>✦</span></div>
+      </div>
+    </section>
+
+    <!-- Bands -->
+    <div class="bands" aria-hidden="true">
+      <div class="band band--a"><div class="band__track" data-marquee="1">AI Engineer ✦ Forward Deployed ✦ LLM Fine-Tuning ✦ RAG Systems ✦ MLOps ✦ Founder ✦&nbsp;</div></div>
+      <div class="band band--b"><div class="band__track" data-marquee="-1">PyTorch ● FastAPI ● LangChain ● Pinecone ● AWS ● Azure ● React ● Docker ● Kubernetes ●&nbsp;</div></div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about container" id="about" data-section="pink">
+      <p class="eyebrow"><span class="eyebrow__num">01</span> The short version</p>
+      <p class="manifesto" data-words>
+        I don't just build AI — I build the things people didn't know they needed, then ship them before anyone else finishes their first meeting.
+        <span class="ipill ipill--blue">Engineer</span> who thinks like a founder.
+        <span class="ipill ipill--pink">Founder</span> who still writes code at&nbsp;2am.
+      </p>
+
+      <div class="stats">
+        <div class="stat" style="--c:var(--blue)" data-cursor="wow">
+          <b><span data-count-to="1000" data-format="comma">1,000</span>+</b>
+          <span>users on Studygy.io — built as a solo technical founder</span>
+        </div>
+        <div class="stat" style="--c:var(--yellow)" data-cursor="wow">
+          <b><span data-count-to="95">95</span>%</b>
+          <span>faster note generation with a RAG + fine-tuning pipeline</span>
+        </div>
+        <div class="stat" style="--c:var(--pink)" data-cursor="wow">
+          <b><span data-count-to="700">700</span>+</b>
+          <span>documents turned into structured Cornell notes</span>
+        </div>
+        <div class="stat" style="--c:var(--green)" data-cursor="wow">
+          <b><span data-count-to="80">80</span>GB+</b>
+          <span>of enterprise data through production APIs, across 3 clients</span>
+        </div>
+        <div class="stat" style="--c:var(--violet)" data-cursor="wow">
+          <b><span data-count-to="100">100</span>+</b>
+          <span>concurrent real-time audio generations, load-balanced</span>
+        </div>
+        <div class="stat" style="--c:var(--orange)" data-cursor="wow">
+          <b><span data-count-to="3.92" data-decimals="2">3.92</span></b>
+          <span>GPA — MS in Computer Science</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work" id="work" data-section="yellow">
+      <div class="work__pin">
+        <div class="work__track">
+          <div class="work__intro">
+            <p class="eyebrow"><span class="eyebrow__num">02</span> Selected work</p>
+            <h2 class="h2" data-split>Things I <span class="serif">shipped.</span></h2>
+            <p class="work__sub">Every one built end to end — model, backend, frontend, and deployed to real people.</p>
+            <p class="work__scroll mono">keep scrolling <span>→</span></p>
+          </div>
+
+          <article class="project" style="--c:var(--blue); --c-ink:#fff" data-cursor="studygy">
+            <div class="project__visual scene-notes" aria-hidden="true">
+              <div class="sn-doc"><i></i><i></i><i></i><i></i><i></i><span>lecture.pdf</span></div>
+              <div class="sn-arrow">✦</div>
+              <div class="sn-paper">
+                <div class="sn-cues"><i></i><i></i><i></i></div>
+                <div class="sn-notes"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="sn-sum"><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project__body">
+              <div class="project__meta mono"><span>01</span><span>Founder · Dec 2025 → now</span></div>
+              <h3 class="project__title">Studygy.io</h3>
+              <p class="project__desc">An AI study platform that turns lectures and textbooks into Cornell Method notes — cues, notes and summaries. Designed, built and grown solo.</p>
+              <ul class="facts">
+                <li><b>1,000+</b>users</li>
+                <li><b>95%</b>faster notes</li>
+                <li><b>700+</b>docs processed</li>
+              </ul>
+              <ul class="tags"><li>LLM fine-tuning</li><li>RAG</li><li>FastAPI</li><li>Pinecone</li><li>OpenAI API</li><li>AWS</li><li>GitHub Actions</li></ul>
+              <a class="project__link" href="https://studygy.io" target="_blank" rel="noopener">Visit studygy.io <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project" style="--c:var(--orange); --c-ink:#141217" data-cursor="edtech">
+            <div class="project__visual scene-access" aria-hidden="true">
+              <div class="sa-blocks"><span>A</span><span>B</span><span>C</span></div>
+              <div class="sa-slider"><i></i><b></b></div>
+              <div class="sa-badge">♿︎ adaptive</div>
+              <div class="sa-stars"><i>★</i><i>★</i><i>★</i></div>
+            </div>
+            <div class="project__body">
+              <div class="project__meta mono"><span>02</span><span>Unique Computing · 2025</span></div>
+              <h3 class="project__title">Learning, for every kid</h3>
+              <p class="project__desc">An accessible learning platform on Open edX for children with disabilities — LLM fine-tuning and RAG on AWS deliver adaptive, personalised lessons.</p>
+              <ul class="facts">
+                <li><b>Open edX</b>platform</li>
+                <li><b>Adaptive</b>lessons</li>
+                <li><b>80GB+</b>client data shipped</li>
+              </ul>
+              <ul class="tags"><li>LLM fine-tuning</li><li>RAG</li><li>AWS</li><li>Azure ML</li><li>Azure DevOps</li></ul>
+            </div>
+          </article>
+
+          <article class="project" style="--c:var(--pink); --c-ink:#141217" data-cursor="listen">
+            <div class="project__visual scene-wave" aria-hidden="true">
+              <p class="sw-lyric mono">“la la lyrics…”</p>
+              <div class="sw-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <p class="sw-label mono">→ vocals · 42ms</p>
+            </div>
+            <div class="project__body">
+              <div class="project__meta mono"><span>03</span><span>Vocs AI · 2025</span></div>
+              <h3 class="project__title">Lyrics → Vocals</h3>
+              <p class="project__desc">Low-latency REST APIs wrapping MusicGen and So-VITS-SVC for real-time, production-scale lyrics-to-vocals synthesis.</p>
+              <ul class="facts">
+                <li><b>100+</b>concurrent requests</li>
+                <li><b>Real-time</b>synthesis</li>
+                <li><b>Load</b>balanced</li>
+              </ul>
+              <ul class="tags"><li>MusicGen</li><li>So-VITS-SVC</li><li>FastAPI</li><li>Audio AI</li></ul>
+            </div>
+          </article>
+
+          <article class="project" style="--c:var(--violet); --c-ink:#fff" data-cursor="chat">
+            <div class="project__visual scene-chat" aria-hidden="true">
+              <div class="sc-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="sc-msg sc-msg--u">What does clause 7 say?</div>
+              <div class="sc-msg sc-msg--a">Clause 7 caps liability at… <sup>[2]</sup></div>
+              <div class="sc-msg sc-msg--u">And the renewal date?</div>
+              <div class="sc-msg sc-msg--a sc-typing"><i></i><i></i><i></i></div>
+            </div>
+            <div class="project__body">
+              <div class="project__meta mono"><span>04</span><span>Generative AI</span></div>
+              <h3 class="project__title">GenAI &amp; LLM Suite</h3>
+              <p class="project__desc">RAG document Q&amp;A with long-term vector memory, hybrid retrieval and reranking — plus a multi-turn conversational assistant. Containerised and shipped via CI/CD.</p>
+              <ul class="facts">
+                <li><b>Hybrid</b>retrieval</li>
+                <li><b>Rerank</b>stage</li>
+                <li><b>Multi-turn</b>memory</li>
+              </ul>
+              <ul class="tags"><li>GPT-4</li><li>LangChain</li><li>FAISS</li><li>Docker</li><li>CI/CD</li></ul>
+            </div>
+          </article>
+
+          <article class="project" style="--c:var(--yellow); --c-ink:#141217" data-cursor="book">
+            <div class="project__visual scene-cal" aria-hidden="true">
+              <div class="scal-head mono"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span></div>
+              <div class="scal-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="scal-toast">✓ Booked · $89 paid</div>
+            </div>
+            <div class="project__body">
+              <div class="project__meta mono"><span>05</span><span>Founder · SaaS</span></div>
+              <h3 class="project__title">Easy Helpers</h3>
+              <p class="project__desc">An on-demand home-services startup I built, launched and monetised — real-time booking, payments and an admin dashboard on a REST API + React stack.</p>
+              <ul class="facts">
+                <li><b>Real</b>revenue</li>
+                <li><b>Live</b>booking</li>
+                <li><b>Payments</b>built in</li>
+              </ul>
+              <ul class="tags"><li>React.js</li><li>REST API</li><li>Payments</li><li>SaaS architecture</li></ul>
+            </div>
+          </article>
+
+          <article class="project" style="--c:var(--green); --c-ink:#141217" data-cursor="grow">
+            <div class="project__visual scene-cluster" aria-hidden="true">
+              <div class="scl-group" style="--x:28%;--y:34%"><i></i><i></i><i></i><i></i><i></i><i></i><b>+</b></div>
+              <div class="scl-group" style="--x:68%;--y:30%"><i></i><i></i><i></i><i></i><i></i><b>+</b></div>
+              <div class="scl-group" style="--x:48%;--y:70%"><i></i><i></i><i></i><i></i><i></i><i></i><b>+</b></div>
+              <p class="scl-label mono">supply ⟷ demand</p>
+            </div>
+            <div class="project__body">
+              <div class="project__meta mono"><span>06</span><span>Machine learning</span></div>
+              <h3 class="project__title">Farm-to-Table AgroTech</h3>
+              <p class="project__desc">An ML supply-chain optimiser that matches farm supply with real-time market demand using regression and clustering — less waste, smarter logistics.</p>
+              <ul class="facts">
+                <li><b>Regression</b>forecasts</li>
+                <li><b>Clustering</b>matches</li>
+                <li><b>Less</b>waste</li>
+              </ul>
+              <ul class="tags"><li>Scikit-learn</li><li>Regression</li><li>Clustering</li><li>Python</li></ul>
+            </div>
+          </article>
+
+          <div class="work__end">
+            <p class="serif">Want the deep cut?</p>
+            <a href="#ask" class="btn btn--ink magnetic">Ask the bot ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASK -->
+    <section class="ask" id="ask" data-section="pink">
+      <div class="container">
+        <div class="ask__head">
+          <p class="eyebrow"><span class="eyebrow__num">03</span> Ask my résumé</p>
+          <h2 class="h2" data-split>Don't read my résumé. <span class="serif">Query it.</span></h2>
+          <p class="ask__sub">A tiny retrieval-augmented engine running entirely in your browser — no API calls, no tracking. Ask about my work and watch it embed, retrieve, rerank and answer, with citations.</p>
+        </div>
+
+        <div class="rag">
+          <div class="rag__win" data-cursor="ask">
+            <div class="rag__bar">
+              <span class="rag__lights"><i></i><i></i><i></i></span>
+              <span class="mono">farhan-rag · v1 · top_k=3</span>
+            </div>
+            <div class="rag__pipe mono" aria-hidden="true">
+              <span data-step="embed">embed</span><b>→</b>
+              <span data-step="retrieve">retrieve</span><b>→</b>
+              <span data-step="rerank">rerank</span><b>→</b>
+              <span data-step="generate">generate</span>
+            </div>
+            <div class="rag__vec" aria-hidden="true"></div>
+            <div class="rag__log" aria-live="polite">
+              <div class="msg msg--bot"><span class="msg__who mono">farhan-rag</span><p>Hey! I'm indexed on Farhan's résumé — 20 chunks of experience, projects, skills and credentials. Ask me anything, or tap a suggestion below.</p></div>
+            </div>
+            <form class="rag__form" autocomplete="off">
+              <label class="sr-only" for="rag-q">Ask a question about Farhan</label>
+              <span class="rag__prompt mono">›</span>
+              <input id="rag-q" name="q" type="text" placeholder="e.g. Have you shipped RAG in production?" maxlength="160" />
+              <button class="rag__send" type="submit" aria-label="Ask">↵</button>
+            </form>
+            <div class="rag__suggest"></div>
+          </div>
+
+          <aside class="rag__kb" aria-label="Knowledge base">
+            <div class="rag__kb-head mono"><span>knowledge_base/</span><span data-kb-count>20 chunks</span></div>
+            <ol class="rag__chunks"></ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="journey container" id="journey" data-section="green">
+      <div class="journey__head">
+        <p class="eyebrow"><span class="eyebrow__num">04</span> Career</p>
+        <h2 class="h2" data-split><span class="mono-h">git log</span> <span class="serif">--my-career</span></h2>
+      </div>
+
+      <div class="gitlog">
+        <div class="gitlog__rail" aria-hidden="true"><i></i></div>
+
+        <article class="commit" style="--c:var(--pink)">
+          <span class="commit__node" aria-hidden="true"></span>
+          <div class="commit__head mono"><span class="hash">c0ffee1</span><span class="ref">HEAD → main</span><span class="date">Dec 2025 — Present</span></div>
+          <h3>Founder &amp; Lead AI Engineer <span>@ Studygy.io</span></h3>
+          <p class="commit__where mono">Chantilly, VA · <a href="https://studygy.io" target="_blank" rel="noopener">studygy.io ↗</a></p>
+          <ul>
+            <li>Grew Studygy.io to <b>1,000+ users</b> as solo technical founder — lectures and textbooks in, Cornell Method notes out.</li>
+            <li>Cut note-generation time by <b>95%</b> with the core RAG + fine-tuning pipeline (FastAPI, Pinecone, OpenAI API) — <b>700+ documents</b> processed.</li>
+            <li>Architected a scalable AWS backend for hierarchical outlining, critical reading and real-time collaborative study.</li>
+            <li>Docker + GitHub Actions CI/CD for multiple releases a week with zero-downtime rollouts.</li>
+            <li>Owned the whole lifecycle — model, backend, UX, go-to-market — and hosted the Studygy AI App Hackathon (<b>80 participants</b>).</li>
+          </ul>
+        </article>
+
+        <article class="commit" style="--c:var(--orange)">
+          <span class="commit__node" aria-hidden="true"></span>
+          <div class="commit__head mono"><span class="hash">acce55b</span><span class="date">Jul — Dec 2025</span></div>
+          <h3>AI Engineer <span>@ Unique Computing LLC</span></h3>
+          <p class="commit__where mono">Chicago, IL · Hybrid</p>
+          <ul>
+            <li>Built an accessible Open edX learning platform for children with disabilities — AWS, LLM fine-tuning and RAG for adaptive lessons.</li>
+            <li>Processed <b>80+ GB</b> across <b>3 enterprise clients</b> with production backends and REST APIs for Big Data analytics.</li>
+            <li>Ran ML workloads on AWS and Azure (Azure OpenAI, Azure ML) with Azure DevOps CI/CD for testing, versioning and release.</li>
+            <li>Shipped ML, NLP and audio/video models into production alongside PhD researchers — forward-deployed.</li>
+          </ul>
+        </article>
+
+        <article class="commit commit--merge" style="--c:var(--violet)">
+          <span class="commit__node" aria-hidden="true"></span>
+          <div class="commit__head mono"><span class="hash">392f00d</span><span class="ref ref--tag">tag: ms-cs</span><span class="date">Jun 2025</span></div>
+          <h3>Merge branch <span>'ms-computer-science'</span></h3>
+          <p class="commit__where mono">Washington University of Science &amp; Technology · GPA 3.92 / 4.0</p>
+        </article>
+
+        <article class="commit" style="--c:var(--blue)">
+          <span class="commit__node" aria-hidden="true"></span>
+          <div class="commit__head mono"><span class="hash">ba55d0e</span><span class="date">Mar — Jul 2025</span></div>
+          <h3>AI Engineer Intern <span>@ Vocs AI</span></h3>
+          <p class="commit__where mono">Remote</p>
+          <ul>
+            <li>Engineered low-latency REST APIs around MusicGen and So-VITS-SVC for real-time lyrics-to-vocals synthesis.</li>
+            <li>Sustained <b>100+ concurrent</b> generation requests by load-balancing the synthesis backend.</li>
+          </ul>
+        </article>
+
+        <article class="commit" style="--c:var(--yellow)">
+          <span class="commit__node" aria-hidden="true"></span>
+          <div class="commit__head mono"><span class="hash">5ca1ab1</span><span class="date">2023</span></div>
+          <h3>Frontend Development Intern <span>@ Superior Code Labs</span></h3>
+          <ul>
+            <li>Built responsive, cross-device interfaces with React.js, HTML5 and CSS3.</li>
+          </ul>
+        </article>
+
+        <article class="commit commit--merge" style="--c:var(--green)">
+          <span class="commit__node" aria-hidden="true"></span>
+          <div class="commit__head mono"><span class="hash">0000001</span><span class="ref ref--tag">tag: be-cs</span><span class="date">2019 — 2023</span></div>
+          <h3>Initial commit <span>— B.E. Computer Science</span></h3>
+          <p class="commit__where mono">Visvesvaraya Technological University</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section class="stack" id="stack" data-section="violet">
+      <div class="container">
+        <div class="stack__head">
+          <div>
+            <p class="eyebrow"><span class="eyebrow__num">05</span> Toolbox</p>
+            <h2 class="h2" data-split>My stack. <span class="serif">Go on, throw it.</span></h2>
+          </div>
+          <p class="stack__sub">Drag, fling and pile up the pills — every one has production mileage behind it. Pick a category to make it jump.</p>
+        </div>
+        <div class="stack__filters" role="group" aria-label="Highlight a category">
+          <button type="button" data-cat="genai" style="--c:var(--pink)">GenAI &amp; LLMs</button>
+          <button type="button" data-cat="rag" style="--c:var(--blue)">RAG</button>
+          <button type="button" data-cat="cloud" style="--c:var(--orange)">Cloud &amp; MLOps</button>
+          <button type="button" data-cat="ml" style="--c:var(--violet)">ML &amp; DL</button>
+          <button type="button" data-cat="backend" style="--c:var(--green)">Backend &amp; Data</button>
+          <button type="button" data-cat="web" style="--c:var(--yellow)">Web &amp; SaaS</button>
+          <button type="button" class="stack__shake" data-shake>Shake it ↯</button>
+        </div>
+        <div class="playground" data-cursor="drag">
+          <p class="playground__hint mono">scroll here to drop the stack ↓</p>
+        </div>
+        <ul class="sr-only stack__list"></ul>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="creds container" id="creds" data-section="orange">
+      <p class="eyebrow"><span class="eyebrow__num">06</span> Receipts</p>
+      <h2 class="h2" data-split>Proof, <span class="serif">not promises.</span></h2>
+
+      <div class="creds__grid">
+        <div class="holo" data-cursor="tilt">
+          <div class="holo__card">
+            <div class="holo__shine" aria-hidden="true"></div>
+            <div class="holo__top"><span class="mono">No. 001 / 2026</span><span class="holo__type">AI ⚡</span></div>
+            <div class="holo__art">
+              <img src="/avatar.jpg" alt="Portrait of Mohammed Farhan" loading="lazy" width="800" height="1200" />
+              <span class="holo__trophy">🏆</span>
+            </div>
+            <h3 class="holo__name">AI Icon Award</h3>
+            <p class="holo__by mono">Tech AI Magazine · 2026</p>
+            <div class="holo__moves">
+              <p><span>Fine-Tune</span><b>95</b></p>
+              <p><span>Retrieve &amp; Rerank</span><b>700+</b></p>
+              <p><span>Ship at 2am</span><b>∞</b></p>
+            </div>
+            <p class="holo__flavor">Industry recognition for innovation. Rarity: legendary.</p>
+          </div>
+        </div>
+
+        <div class="creds__side">
+          <div class="edu" style="--c:var(--blue)">
+            <p class="mono edu__when">Jan 2024 — Jun 2025</p>
+            <h3>MS, Computer Science</h3>
+            <p>Washington University of Science &amp; Technology</p>
+            <span class="edu__gpa">GPA 3.92</span>
+          </div>
+          <div class="edu" style="--c:var(--green)">
+            <p class="mono edu__when">Jul 2019 — May 2023</p>
+            <h3>BE, Computer Science</h3>
+            <p>Visvesvaraya Technological University</p>
+            <span class="edu__gpa">CGPA 7.72</span>
+          </div>
+          <ul class="certs">
+            <li style="--c:var(--pink)"><b>Supervised Machine Learning</b><span>Stanford · Coursera · 2025</span></li>
+            <li style="--c:var(--yellow)"><b>Software Engineer Certification</b><span>HackerRank · 2025</span></li>
+            <li style="--c:var(--violet)"><b>Generative AI for Everyone</b><span>DeepLearning.AI</span></li>
+            <li style="--c:var(--orange)"><b>Machine Learning with Python</b><span>IBM</span></li>
+            <li style="--c:var(--blue)"><b>Programming for Everybody (Python)</b><span>University of Michigan</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact" data-section="yellow">
+      <div class="contact__inner container">
+        <p class="eyebrow eyebrow--light"><span class="eyebrow__num">07</span> Contact</p>
+        <h2 class="contact__title" data-split>Let's build something <span class="serif">worth shipping.</span></h2>
+        <p class="contact__sub">Got a hard AI problem, a 0→1 product, or a team that needs someone forward-deployed? I'm the engineer who actually ships.</p>
+        <div class="contact__actions">
+          <button class="email-btn magnetic" type="button" data-copy="farhanay916@gmail.com" data-cursor="copy">
+            <span class="email-btn__addr">farhanay916@gmail.com</span>
+            <span class="email-btn__hint mono">click to copy</span>
+          </button>
+        </div>
+        <ul class="contact__links">
+          <li><a href="mailto:farhanay916@gmail.com" class="pill-link" style="--c:var(--yellow)">Email ↗</a></li>
+          <li><a href="https://linkedin.com/in/farhanzephyr" target="_blank" rel="noopener" class="pill-link" style="--c:var(--blue)">LinkedIn ↗</a></li>
+          <li><a href="https://studygy.io" target="_blank" rel="noopener" class="pill-link" style="--c:var(--pink)">Studygy.io ↗</a></li>
+          <li><a href="/Mohammed-Farhan-Resume.pdf" target="_blank" rel="noopener" class="pill-link" style="--c:var(--green)">Résumé (PDF) ↓</a></li>
+        </ul>
+      </div>
+      <div class="contact__giant" aria-hidden="true"><span data-letters>FARHAN</span></div>
+      <footer class="footer container">
+        <span>© 2026 Mohammed Farhan · Chantilly, VA</span>
+        <span class="mono">Built by hand · GSAP, Lenis, Matter.js &amp; way too much colour</span>
+        <a href="#top" class="footer__top" data-cursor="up!">Back to top ↑</a>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
