@@ -276,9 +276,11 @@ $$('.scl-group').forEach((g) => {
     d.style.animationDuration = `${7 + Math.random() * 6}s`;
   });
 });
+// RedBench grid: a scan that sweeps row by row
+$$('.rb-grid i').forEach((c, i) => { c.style.animationDelay = `${(Math.floor(i / 4) * 0.55 + (i % 4) * 0.14).toFixed(2)}s`; });
 // pause CSS scenes off-screen
 const sceneIO = new IntersectionObserver((ents) => ents.forEach((en) => en.target.classList.toggle('is-paused', !en.isIntersecting)));
-$$('.project').forEach((p) => sceneIO.observe(p));
+$$('.project, .paper--feature').forEach((p) => sceneIO.observe(p));
 
 const mm = gsap.matchMedia();
 mm.add('(min-width: 901px) and (prefers-reduced-motion: no-preference)', () => {
@@ -333,7 +335,7 @@ if (!reduce) {
     ScrollTrigger.refresh();
   });
 
-  const revealSel = '.stat, .commit, .edu, .certs, .rag__win, .rag__kb, .ask__sub, .work__sub, .stack__sub, .stack__filters, .playground, .contact__sub, .contact__actions, .contact__links, .holo';
+  const revealSel = '.stat, .commit, .edu, .certs, .paper, .research__sub, .rag__win, .rag__kb, .ask__sub, .work__sub, .stack__sub, .stack__filters, .playground, .contact__sub, .contact__actions, .contact__links, .holo';
   gsap.set(revealSel, { y: 50, opacity: 0 });
   ScrollTrigger.batch(revealSel, {
     start: 'top 90%',
