@@ -57,10 +57,10 @@
         <nav class="nav__links" aria-label="Primary">
           <span class="nav__indicator" aria-hidden="true"></span>
           <a href="#work" data-nav>Work</a>
-          <a href="#research" data-nav>Research</a>
           <a href="#ask" data-nav>Ask&nbsp;me</a>
           <a href="#journey" data-nav>Journey</a>
           <a href="#stack" data-nav>Stack</a>
+          <a href="#research" data-nav>Research</a>
           <a href="#creds" data-nav>Receipts</a>
         </nav>
         <div class="nav__right">
@@ -78,10 +78,10 @@
   <div class="menu" aria-hidden="true">
     <nav class="menu__links" aria-label="Mobile">
       <a href="#work" style="--c:var(--blue)">Work</a>
-      <a href="#research" style="--c:var(--violet)">Research</a>
       <a href="#ask" style="--c:var(--pink)">Ask me</a>
       <a href="#journey" style="--c:var(--yellow)">Journey</a>
       <a href="#stack" style="--c:var(--green)">Stack</a>
+      <a href="#research" style="--c:var(--violet)">Research</a>
       <a href="#creds" style="--c:var(--violet)">Receipts</a>
       <a href="#contact" style="--c:var(--orange)">Contact</a>
     </nav>
@@ -470,54 +470,11 @@
       </div>
     </section>
 
-    <!-- RESEARCH -->
-    <section class="research container" id="research" data-section="violet">
-      <p class="eyebrow"><span class="eyebrow__num">03</span> Research</p>
-      <h2 class="h2" data-split>Research<span class="serif">.</span></h2>
-      <p class="research__sub serif">Where the building turns into questions.</p>
-
-      <div class="research__grid">
-        <article class="paper paper--feature" data-cursor="read">
-          <div class="paper__visual" aria-hidden="true">
-            <div class="rb-grid"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            <p class="rb-caption mono">6 attack categories × 4 defense layers · canary-judged</p>
-          </div>
-          <div class="paper__body">
-            <p class="paper__meta mono"><span>Open-source benchmark</span><span>2026</span></p>
-            <h3 class="paper__title">RedBench</h3>
-            <p class="paper__desc">An open-source benchmark for LLM prompt-injection and jailbreak robustness: 24 attacks across 6 categories, tested against 4 defense layers, with deterministic canary-based judging. Built to measure how LLM systems fail, not just how they demo.</p>
-            <ul class="facts">
-              <li><b>24</b>attacks</li>
-              <li><b>6</b>categories</li>
-              <li><b>4</b>defense layers</li>
-            </ul>
-            <a class="paper__link" href="https://github.com/Far-hantech/redbench" target="_blank" rel="noopener">github.com/Far-hantech/redbench <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="paper">
-          <p class="paper__meta mono"><span>MSIT Capstone · WUST</span><span>Jun 2025</span></p>
-          <h3 class="paper__title">Data-analytics solution design</h3>
-          <p class="paper__desc">Sole-authored design of a data-analytics solution for a fictional enterprise: ingestion, modelling and decision dashboards end to end.</p>
-          <span class="paper__tag mono">sole author</span>
-        </article>
-
-        <div class="paper paper--interests">
-          <p class="paper__meta mono"><span>Research interests</span></p>
-          <ul class="interests">
-            <li style="--c:var(--pink)">LLM evaluation &amp; robustness</li>
-            <li style="--c:var(--blue)">Trustworthy AI</li>
-            <li style="--c:var(--green)">AI for education</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
     <!-- ASK -->
     <section class="ask" id="ask" data-section="pink">
       <div class="container">
         <div class="ask__head">
-          <p class="eyebrow"><span class="eyebrow__num">04</span> Ask my résumé</p>
+          <p class="eyebrow"><span class="eyebrow__num">03</span> Ask my résumé</p>
           <h2 class="h2" data-split>Don't read my résumé. <span class="serif">Query it.</span></h2>
           <p class="ask__sub">A tiny retrieval-augmented engine running entirely in your browser — no API calls, no tracking. Ask about my work and watch it embed, retrieve, rerank and answer, with citations.</p>
         </div>
@@ -558,7 +515,7 @@
     <!-- JOURNEY -->
     <section class="journey container" id="journey" data-section="green">
       <div class="journey__head">
-        <p class="eyebrow"><span class="eyebrow__num">05</span> Career</p>
+        <p class="eyebrow"><span class="eyebrow__num">04</span> Career</p>
         <h2 class="h2" data-split><span class="mono-h">git log</span> <span class="serif">--my-career</span></h2>
       </div>
 
@@ -633,7 +590,7 @@
       <div class="container">
         <div class="stack__head">
           <div>
-            <p class="eyebrow"><span class="eyebrow__num">06</span> Toolbox</p>
+            <p class="eyebrow"><span class="eyebrow__num">05</span> Toolbox</p>
             <h2 class="h2" data-split>My stack. <span class="serif">Go on, throw it.</span></h2>
           </div>
           <p class="stack__sub">Drag, fling and pile up the pills — every one has production mileage behind it. Pick a category to make it jump.</p>
@@ -651,6 +608,50 @@
           <p class="playground__hint mono">scroll here to drop the stack ↓</p>
         </div>
         <ul class="sr-only stack__list"></ul>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="research container" id="research" data-section="violet">
+      <div class="research__intro">
+        <p class="eyebrow"><span class="eyebrow__num">06</span> Research</p>
+        <h2 class="h2" data-split>Research<span class="serif">.</span></h2>
+        <p class="research__sub serif">Where the building turns into questions.</p>
+        <div class="research__interests">
+          <p class="mono">Interests</p>
+          <ul>
+            <li style="--c:var(--pink)">LLM evaluation &amp; robustness</li>
+            <li style="--c:var(--blue)">Trustworthy AI</li>
+            <li style="--c:var(--green)">AI for education</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pubs">
+        <p class="pubs__label mono">Selected research</p>
+
+        <article class="pub">
+          <p class="pub__year mono">2026</p>
+          <div class="pub__main">
+            <h3 class="pub__title"><a href="https://github.com/Far-hantech/redbench" target="_blank" rel="noopener">RedBench: an open benchmark for LLM prompt-injection and jailbreak robustness</a></h3>
+            <p class="pub__authors"><b>Mohammed Farhan</b> · Open-source benchmark</p>
+            <p class="pub__abstract">24 attacks across 6 categories, tested against 4 defense layers, with deterministic canary-based judging. Built to measure how LLM systems fail, not just how they demo.</p>
+            <p class="pub__keys mono"><span>24 attacks</span><span>6 categories</span><span>4 defense layers</span><span>canary-based judging</span></p>
+            <div class="pub__links">
+              <a href="https://github.com/Far-hantech/redbench" target="_blank" rel="noopener">Code <span>↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pub">
+          <p class="pub__year mono">2025</p>
+          <div class="pub__main">
+            <h3 class="pub__title">Designing an end-to-end data-analytics solution <span class="pub__note">— MSIT Capstone</span></h3>
+            <p class="pub__authors"><b>Mohammed Farhan</b> · Washington University of Science &amp; Technology · Sole author</p>
+            <p class="pub__abstract">A sole-authored design of a data-analytics solution for a fictional enterprise: ingestion, modelling and decision dashboards, end to end.</p>
+            <p class="pub__keys mono"><span>Ingestion</span><span>Modelling</span><span>Decision dashboards</span></p>
+          </div>
+        </article>
       </div>
     </section>
 
